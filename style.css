@@ -1,0 +1,84 @@
+@font-face { 
+    font-family: 'Faithful';
+    src: url('fonts/Faithful.ttf') format('truetype');
+}
+
+.highlight1 {
+  color: blue; 
+  font-family: 'Faithful', sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.highlight2 {
+  color: white; 
+  background-color: red;
+}
+
+.frame {  
+  margin: 0 400px;
+  background-color: white;
+}
+
+body{
+  background-image: url('img/back.jpg');  
+  background-repeat: no-repeat;      /* чтобы изображение не повторялось */
+  background-size: cover;            /* масштабировать фон так, чтобы он покрывал весь блок */
+  background-position: center;     
+  background-attachment: fixed;  
+  font-family: 'Faithful', sans-serif;
+}
+
+h1,h2 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+p{
+    color: #24B423;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+figure {
+  text-align: center; 
+  margin: 1em 0;       /* задаёт вертикальные отступы сверху и снизу */
+}
+
+.container {
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.image-list {
+  position: relative; /* устанавливает элемент как относительный по позиционированию*/
+  width: 300px; 
+  margin-left: auto;  /* центрируем*/
+  margin-right: auto;
+}
+
+.image-list ol {
+  position: absolute;
+  font-size: 20px;
+  line-height: 24px;
+  top: 60px; 
+}
+
+.special-layout {
+  display: flex;
+}
+
